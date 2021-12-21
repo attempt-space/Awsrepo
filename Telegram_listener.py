@@ -66,22 +66,7 @@ def handle_hashtag_message(text):
         symbolmatch = re.findall("\$(\w+)\/(\w+)", text)
         print(symbolmatch)
         pair = (symbolmatch[0][0])+str(symbolmatch[0][1])
-        print(pair)
 
-
-        print(buy_sell)
-        print(pair)
-        print(entry_zone_min)
-        print(entry_zone_max)
-        print(leverage)
-        print(tp1)
-        print(tp2)
-        print(tp3)
-        print(tp4)
-        print(tp5)
-        print(tp6)
-        print(stop_loss)
-        message ={}
         profit = [tp1,tp2,tp3,tp4]
         profitconverted = []
         for each in profit:

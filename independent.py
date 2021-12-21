@@ -295,8 +295,8 @@ def index():
 
 
 def get_futuresprecisionDetail():
-    api_key = '6fda2f274e99aa3e20b15436ade90bb437b6a7aef13fcbe66d4e38cf6a9416eb'
-    api_secret = '0f215bbece4e3dfa1f9a8cf5a0588002b6bb0389d6e0c4d5af6e61cc882cf019'
+    api_key = '< api key>'
+    api_secret = '<api secret>'
 
     client = Client(api_key, api_secret)
     global entirefutures
