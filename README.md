@@ -1,13 +1,13 @@
-#Attempt Space Crypto BOT
+# Attempt Space Crypto BOT
 
 Best Crypto Bot to automatically trade cryptocurrencies based on signals from Telegram group
 
-#What it does:
+# What it does:
 
 Built purely in python to track signals from Telegram group & start listening in web socket.
 Depends on Websocket replies will execute the upcoming trades.
 
-#Sample Telegram message:
+# Sample Telegram message:
 
 Long #FLM/USDT 0.61-0.622
 Sell @0.63-0.635-0.64-0.65-0.68-0.70-0.75-0.80+
@@ -47,7 +47,7 @@ api_sec = <Api sec Key - Binance>
 
 To start run -> python3 Telegram_listner.py
 
-#Independent runs are always awesome 
+# Independent runs are always awesome 
 The main code will do the following
     - Understand trade information from Telegram parsed messages.
     - Once understood, it will place a order which would be "STOP_MARKET" orders
